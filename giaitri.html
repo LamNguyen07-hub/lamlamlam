@@ -2,47 +2,36 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nguyễn Tường Lâm-12A3</title>
+  <title>Giải trí</title>
  </head>
  <body bgcolor="white">
-  <style>
-  h1{color:white;
+ <style>
+  h1{color:black;
     background-color:red;
     text-align:left;
-    border:2px solid white;
+    border:2px solid black;
     font-size:40px;
-    font-family:Tahoma}
+    font-family:Tahoma}   
 body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Thay ảnh này bằng ảnh bạn thích */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: #fff; /* Màu chữ trắng để nổi bật trên ảnh nền */
-    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .menu {
   background-color: red; 
   padding:  10px;
 }
-nav {
-            position: sticky;
-            top: 0; /* Khi cuộn đến top 0px, nó sẽ dính lại */
-            z-index: 1000; /* Đảm bảo nav không bị che khuất */
-        }
+
 .menu-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-
 }
 
 .menu-list > li {
   position: relative;
   margin: 5 20px;
-  
  }
 
 .menu-list a {
@@ -57,37 +46,7 @@ nav {
   background-color: white; 
   color: red;  
 }
-.center-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Chiều cao bằng toàn màn hình */
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 5px black;
-  transform: translateY(-120px); /* Đẩy chữ lên 150px */
-}
-.center-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
-  transform: translateY(-100px); /* Đẩy cả khối lên một chút */
-}
 
-.center-text {
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 5px black;
-  margin-bottom: 20px; /* Khoảng cách với ảnh bên dưới */
-}
-
-.center-text-wrapper img {
-  width: 50px; /* Hoặc tùy chỉnh theo ý Lâm */
-}
 .dropdown {
   display: none;
   position: absolute;
@@ -139,10 +98,10 @@ nav {
   color: red; 
 }
 
-  </style>  
+  </style> 
   <nav class="menu">
     <ul class="menu-list">
-      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="meme.html">Meme</a>
        <div class="dropdown">
           <div class="dropdown-column">
@@ -177,11 +136,9 @@ nav {
       </li>       
     </ul>        
   </nav>
-
-      
-<div class="center-text-wrapper">
-  <div class="center-text">Chào mừng đến với trang web của Lâm</div>
-  <a href="https://www.facebook.com/tuonglam2007" target="_blank">
-    <img src="f.png" alt="Facebook">
-  </a>
-</div>
+<li style="font-size:30px"><b><mark>Giải Trí</mark></b></li>
+   <nav style="background-color: white; padding: 10px 20px; text-align: center">
+        <a href="nhac.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="nhac.png" width="20%"></a>
+        <a href="phim.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="phim.png" width="20%"></a>
+        <a href="sach.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="sach.png" width="20%"></a>
+   </nav></body></html>
